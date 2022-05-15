@@ -107,3 +107,13 @@ input[type="radio"] {
 #button_4:checked~.slides .first {
     margin-left: -75%;
 }
+
+@media (max-width: 500px) {
+    .pagination {
+        justify-content: center;
+        bottom: 0px;
+    }
+    .slide-item p {
+        margin-bottom: 25px;
+    }
+}
